@@ -1,0 +1,47 @@
+{
+  "name": "react-form-inputs",
+  "version": "0.0.1",
+  "description": "A collection of inputs for react-form",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/korbin/react-form-inputs"
+  },
+  "keywords": [
+    "react",
+    "form",
+    "react-form"
+  ],
+  "author": "korbin <k1@k1.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/korbin/react-form-inputs/issues"
+  },
+  "homepage": "https://github.com/korbin/react-form-inputs",
+  "dependencies": {
+    "react": "^0.12.1",
+    "type-detect": "^0.1.2"
+  },
+  "devDependencies": {
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-file": "^0.2.0",
+    "gulp-react": "^2.0.0",
+    "gulp-require-list": "0.0.1",
+    "jest": "^0.1.37",
+    "object-assign": "^2.0.0",
+    "react-tools": "^0.12.2"
+  },
+  "peerDependencies": {
+    "react-form": "0.x"
+  },
+  "jest": {
+    "scriptPreprocessor": "./preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "./node_modules/react"
+    ]
+  }
+}

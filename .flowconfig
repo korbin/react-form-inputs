@@ -1,0 +1,7 @@
+[ignore]
+.*/dist/.*
+[include]
+
+[libs]
+
+[options]
