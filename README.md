@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/react-form-inputs.svg)](http://badge.fury.io/js/engine.io)
 [![Build Status](https://travis-ci.org/korbin/react-form-inputs.svg?branch=master)](https://travis-ci.org/korbin/react-form-inputs)
 
-## Synposis
+## Synopsis
 **react-form-inputs** is a baseline collection of pluggable input components for [react-form](https://github.com/korbin/react-form).
 
 ## Components
